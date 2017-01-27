@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {    
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    z-index: -1;
+    font-size: 22px;
+    font-family: 'Georgia', Times, serif;
+    text-align: right;
+}
+
+
+.footer {
+    background-color: #666666;
+    color: white;
+    padding: 15px;
+    width: 1345px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 580px;
+    z-index: -1;
+    text-align: center;
+    border-top: 6px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #4aaaa5;
+}
+.column {
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    padding: 25px;
+    margin: 0px;
+    position: absolute;
+    left: 90px;
+    top: 105px;
+    z-index: -1;
+    border-top: 0.1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+p {
+    float: right;
+    font-size: 14px;
+    color: #777777;
+    font-family: arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 110px;
+    top: 150px;
+    z-index: -1;
+    height: 500px;
+    width: 300px;
+}
+
+.backgroundimage, image {
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    z-index: -1;
+    border-top: 3px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+
+.sidebar {
+    background-color: white;
+    width: 290px;
+    height: 210px;
+    padding: 25px;
+    margin: 0px;
+    position: absolute;
+    left: 800px;
+    top: 105px;
+    z-index: 0;
+    border-top: 0.1px;
+    border-style: solid;
+    border-color: #cccccc;
+
+}
+
+h1 {
+   font-size: 25px;
+   background-color: white;
+   font-family: 'Georgia', Times, serif;
+   text-align: left;
+   color: #4aaaa5;
+   border-bottom: 2px;
+   border-bottom-style: solid;
+   border-color: #dddddd;
+}
+
+h2 {
+    float: center
+    
+}
+
+h3 {
+   font-size: 35px;
+   background-color: white;
+   font-family: 'Georgia', Times, serif;
+   text-align: left;
+   color: #4aaaa5;
+   border-bottom: 2px;
+   padding: 0px 0px 35px 0px;
+   border-bottom-style: solid;
+   border-color: #dddddd;
+}
+
+.buttons {
+    font-size: 17px;
+    background-color: white;
+    position:relative;
+    transition: .5s ease;
+    top: 20px;
+    left: 780px;
+    right: -420px;
+    bottom: -191px;
+}
+
+#one, #two, #three {
+    background-color: white;
+    color: #777777;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+
+}
+
+.button1, .button2 {
+    border-right: 0.1px;
+    border-right-style: solid;
+    border-color: #dddddd;
+}
+
+.portfolio {
+    background-color: white;
+    width: 650px;
+    height: 1060px;
+    padding: 25px;
+    margin: 0px;
+    position: absolute;
+    left: 90px;
+    top: 105px;
+    z-index: -1;
+    float: left;
+    border-top: 0.1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+.footer2 {
+    background-color: #666666;
+    color: white;
+    padding: 15px;
+    width: 1350px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 1200px;
+    z-index: -1;
+    text-align: center;
+    border-top: 6px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #4aaaa5;
+}
+
+#hangman {
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    z-index: -1;
+}
+
+#rpggame {
+    position: absolute;
+    left: 375px;
+    top: 180px;
+    z-index: -1;
+}
+
+#triviagame {
+    position: absolute;
+    left: 30px;
+    top: 500px;
+    z-index: -1;
+}
+
+#Rutgersinfowidget {
+    position: absolute;
+    left: 375px;
+    top: 500px;
+    z-index: -1;
+}
+
+#rockpaper {
+    position: absolute;
+    left: 30px;
+    top: 820px;
+    z-index: -1;
+}
+
+#hangmantext, #rpgtext, #triviagametext, #Rutgersinfowidgettext, #rockpapertext {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    font-family: 'Georgia', Times, serif;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+}
+
+#hangmantext {
+    position: absolute;
+    left: 30px;
+    top: 305px;
+    z-index: 0;
+}
+
+#rpgtext {
+    position: absolute;
+    left: 375px;
+    top: 305px;
+    z-index: 0;
+}
+
+#triviagametext {
+    position: absolute;
+    left: 30px;
+    top: 625px;
+    z-index: 0;
+}
+
+#Rutgersinfowidgettext {
+    position: absolute;
+    left: 375px;
+    top: 625px;
+    z-index: 0;
+}
+
+#rockpapertext {
+    position: absolute;
+    left: 30px;
+    top: 945px;
+    z-index: 0;
+}
+
+#submit_button {
+    background-color: #4aaaa5;
+    color: white;
+
+}
